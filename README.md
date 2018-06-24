@@ -52,16 +52,16 @@ MaxBandwidth 50000
 NoDaemon
 
 
-<Feed webcam.ffm>
+< Feed webcam.ffm >
   
 file /tmp/webcam.ffm
 
 FileMaxSize 10M
 
-</Feed>
+< / Feed>
 
 
-<Stream webcam.mjpeg>
+< Stream webcam.mjpeg >
   
 Feed webcam.ffm
 
@@ -77,14 +77,16 @@ VideoQMin 1
 
 VideoQMax 10
 
-</Stream>
+< / Stream >
 
 
-<Stream stat.html>
+< Stream stat.html >
   
 Format status
 
-</Stream>
+< / Stream >
+
+# without the spaces </stream>
 
 
 
