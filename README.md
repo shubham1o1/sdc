@@ -86,7 +86,7 @@ Format status
 
 < / Stream >
 
-# without the spaces </stream>
+#without the spaces </stream>
 
 
 
