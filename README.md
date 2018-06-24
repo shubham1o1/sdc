@@ -8,16 +8,25 @@ step by step guide to the self driving car, inspired by many sources. will be do
 first of all, installing ffmpeg in raspberyy pi, a huge pain in the ass. steps:
 
 1. Install library
+
   cd /usr/src
+  
   sudo git clone git://git.videolan.org/x264
+  
   cd x264
+  
   sudo ./configure --host=arm-unknown-linux-gnueabi --enable-static --disable-opencl
+  
   sudo make
+  
   sudo make install
   
 2. Install ffmpeg
+
    sudo git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+   
   cd ffmpeg
+  
   sudo git checkout 2ca65fc7b74444edd51d5803a2c1e05a801a6023
   sudo ./configure
   sudo make -j4
